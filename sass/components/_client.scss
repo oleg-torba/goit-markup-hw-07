@@ -1,0 +1,41 @@
+.client {
+    display: flex;
+  
+}
+
+.client__item {
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+.client__item:last-child {
+    margin-right: 0px;
+}
+
+
+.client__link {
+    fill: var(--clients-icon-color);
+    display: flex;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    transition-property: fill, border-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+    fill: var(--hover-color);
+    border-color: var(--hover-color);
+    
+}
+}
+
+
+
+
+
